@@ -40,3 +40,4 @@ The designs were created to the following widths:
 
 font-family: 'Inter', sans-serif;
 font-family: 'Lexend Deca', sans-serif;
+https://github.com/Jose-Angel-Rey
