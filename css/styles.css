@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  :root {
+    scroll-behavior: smooth;
+  
+    /* Fonts */
+    --title-font: "Big Shoulders Display", cursive;
+    --content-font: "Lexend Deca", sans-serif;
+  
+    /* Background Colors */
+    --body-bg-color: hsl(0, 0%, 95%);
+    --orange-card-bg-color: hsl(31, 77%, 52%);
+    --dark-cyan-card-bg-color: hsl(184, 100%, 22%);
+    --very-dark-cyan-card-bg-color: hsl(179, 100%, 13%);
+  
+    /* Text colors */
+    --card-text-color: hsl(0, 0%, 95%);
+    --paragraph-color: hsla(0, 0%, 100%, 0.75);
+  }
+  
+  /* Main container styles  */
+  .main-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  
+  /* ScreenReader only styles */
+  .sr-only {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -100000000;
+    overflow: hidden;
+  }
