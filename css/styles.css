@@ -20,22 +20,22 @@
 
 /* Main container  */
 .main-container {
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   background-color: var(--body-bg-color);
   width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 0px;
+  padding: 75px 0px 30px;
 }
 /* Card */
 .card-container {
-  border: 1px solid magenta;
+  /* border: 1px solid magenta; */
   background-color: var(--card-bg-color);
   text-align: center;
   width: 90%;
-  max-width: 300px;
+  max-width: 320px;
   border-radius: 15px;
   display: flex;
   flex-flow: column-reverse nowrap;
@@ -43,9 +43,9 @@
   align-items: center;
 }
 .card-content {
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
   color: var(--title-color);
-  padding: 50px 25px;
+  padding: 50px 25px 10px;
 }
 .card-content__title {
   font-family: var(--main-font);
@@ -62,7 +62,7 @@
   margin: 25px auto 50px;
 }
 .card__img {
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
   border-radius: 15px 15px 0px 0px;
   height: 220px;
   width: 100%;
@@ -71,12 +71,12 @@
       hsla(276, 74%, 31%, 0.6)
     ),
     url(../images/image-header-mobile.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 /* stats */
 .stats-container {
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
 }
 .stats {
   margin-bottom: 20px;
@@ -107,18 +107,19 @@
 /* Attribution footer*/
 .attribution {
   background-color: var(--body-bg-color);
-  margin: 20px auto;
-  font-size: 15px;
-  font-family: var(--content-font);
+  font-size: 14px;
+  font-family: var(--second-font);
   text-align: center;
+  color: #fff;
+  padding: 20px;
 }
 .attribution a {
-  color: var(--orange-card-bg-color);
+  color: cyan;
   transition: color 0.5s;
 }
 .attribution a:hover {
-  color: var(--dark-cyan-card-bg-color);
+  color: var(--card-image-accent);
 }
 .attribution a:active {
-  color: var(--ver-dark-cyan-card-bg-color);
+  color: cyan;
 }
