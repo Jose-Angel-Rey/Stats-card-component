@@ -34,6 +34,10 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  .card-container:hover {
+    cursor: pointer;
+    animation: none;
+  }
   .card-content {
     padding: 0px 0px 0px 60px;
   }

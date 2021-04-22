@@ -17,7 +17,14 @@
   --stats-title-color: hsla(0, 0%, 100%, 0.6);
   --paragraph-color: hsla(0, 0%, 100%, 0.75);
 }
-
+@keyframes beat {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.01);
+  }
+}
 /* Main container  */
 .main-container {
   background-color: var(--body-bg-color);
@@ -39,6 +46,7 @@
   flex-flow: column-reverse nowrap;
   justify-content: center;
   align-items: center;
+  animation: beat 0.8s 0.5s alternate infinite;
 }
 .card-content {
   color: var(--title-color);
