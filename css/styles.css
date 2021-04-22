@@ -1,59 +1,93 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  :root {
-    scroll-behavior: smooth;
-  
-    /* Fonts */
-    --title-font: 'Inter', sans-serif;
-    --content-font: "Lexend Deca", sans-serif;
-  
-    /* Background Colors */
-    --body-bg-color: hsl(233, 47%, 7%);
-    --card-bg-color: hsl(244, 38%, 16%);
-    --card-image-accent: hsl(277, 64%, 61%);
-    /* Text colors */
-    --title-color: hsl(0, 0%, 100%);
-    --stats-title-color: hsla(0, 0%, 100%, 0.6);
-    --paragraph-color: hsla(0, 0%, 100%, 0.75);
-  }
-  
-  /* Main container styles  */
-  .main-container {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0px;
-  }
-  
-  /* ScreenReader only styles */
-  .sr-only {
-    width: 1px;
-    height: 1px;
-    position: absolute;
-    left: -100000000;
-    overflow: hidden;
-  }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  /* Fonts */
+  --title-font: "Inter", sans-serif;
+  --content-font: "Lexend Deca", sans-serif;
 
-  /* Attribution footer styles */
+  /* Background Colors */
+  --body-bg-color: hsl(233, 47%, 7%);
+  --card-bg-color: hsl(244, 38%, 16%);
+  --card-image-accent: hsl(277, 64%, 61%);
+  /* Text colors */
+  --title-color: hsl(0, 0%, 100%);
+  --stats-title-color: hsla(0, 0%, 100%, 0.6);
+  --paragraph-color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Main container  */
+.main-container {
+  border: 1px solid magenta;
+  background-color: var(--body-bg-color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+}
+/* Card */
+.card-container {
+  border: 1px solid magenta;
+  background-color: var(--card-bg-color);
+  font-family: var(--content-font);
+  text-align: center;
+  width: 90%;
+  max-width: 300px;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.card-content {
+  border: 1px solid cyan;
+  color: var(--title-color);
+  padding: 50px 25px;
+}
+.card-content__title span {
+  color: var(--card-image-accent);
+}
+.card__img {
+  border: 1px solid greenyellow;
+  border-radius: 15px 15px 0px 0px;
+  height: 220px;
+  width: 100%;
+  background: linear-gradient(
+      hsla(276, 86%, 59%, 0.507),
+      hsla(276, 86%, 59%, 0.507)
+    ),
+    url(../images/image-header-mobile.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* ScreenReader only */
+.sr-only {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: -100000000;
+  overflow: hidden;
+}
+
+/* Attribution footer*/
 .attribution {
-    margin: 20px auto;
-    font-size: 15px;
-    font-family: var(--content-font);
-    text-align: center;
-  }
-  .attribution a {
-    color: var(--orange-card-bg-color);
-    transition: color 0.5s;
-  }
-  .attribution a:hover {
-    color: var(--dark-cyan-card-bg-color);
-  }
-  .attribution a:active {
-    color: var(--ver-dark-cyan-card-bg-color);
-  }
-  
+  background-color: var(--body-bg-color);
+  margin: 20px auto;
+  font-size: 15px;
+  font-family: var(--content-font);
+  text-align: center;
+}
+.attribution a {
+  color: var(--orange-card-bg-color);
+  transition: color 0.5s;
+}
+.attribution a:hover {
+  color: var(--dark-cyan-card-bg-color);
+}
+.attribution a:active {
+  color: var(--ver-dark-cyan-card-bg-color);
+}
