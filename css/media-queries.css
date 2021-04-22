@@ -1,3 +1,4 @@
+/* ---------- 768px  ----------- */
 @media screen and (min-width: 768px) {
   .card-container {
     width: 85%;
@@ -33,6 +34,7 @@
     right: 50px;
   }
 }
+/* -------- 1024px ------------ */
 @media screen and (min-width: 1024px) {
   .card-container:hover {
     cursor: pointer;
@@ -43,5 +45,14 @@
   }
   .card-content__title {
     font-size: 33px;
+  }
+  .card__img {
+    background: linear-gradient(
+        hsla(276, 74%, 31%, 0.6),
+        hsla(276, 74%, 31%, 0.6)
+      ),
+      url(../images/image-header-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
