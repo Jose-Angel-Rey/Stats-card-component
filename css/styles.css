@@ -7,17 +7,16 @@
     scroll-behavior: smooth;
   
     /* Fonts */
-    --title-font: "Big Shoulders Display", cursive;
+    --title-font: 'Inter', sans-serif;
     --content-font: "Lexend Deca", sans-serif;
   
     /* Background Colors */
-    --body-bg-color: hsl(0, 0%, 95%);
-    --orange-card-bg-color: hsl(31, 77%, 52%);
-    --dark-cyan-card-bg-color: hsl(184, 100%, 22%);
-    --very-dark-cyan-card-bg-color: hsl(179, 100%, 13%);
-  
+    --body-bg-color: hsl(233, 47%, 7%);
+    --card-bg-color: hsl(244, 38%, 16%);
+    --card-image-accent: hsl(277, 64%, 61%);
     /* Text colors */
-    --card-text-color: hsl(0, 0%, 95%);
+    --title-color: hsl(0, 0%, 100%);
+    --stats-title-color: hsla(0, 0%, 100%, 0.6);
     --paragraph-color: hsla(0, 0%, 100%, 0.75);
   }
   
