@@ -20,7 +20,7 @@
 
 /* Main container  */
 .main-container {
-  /* border: 1px solid magenta; */
+  border: 1px solid magenta;
   background-color: var(--body-bg-color);
   width: 100%;
   min-height: 100vh;
@@ -31,7 +31,7 @@
 }
 /* Card */
 .card-container {
-  /* border: 1px solid magenta; */
+  border: 1px solid magenta;
   background-color: var(--card-bg-color);
   text-align: center;
   width: 90%;
@@ -43,7 +43,7 @@
   align-items: center;
 }
 .card-content {
-  /* border: 1px solid cyan; */
+  border: 1px solid cyan;
   color: var(--title-color);
   padding: 50px 25px 10px;
 }
@@ -59,10 +59,10 @@
   color: var(--paragraph-color);
   line-height: 25px;
   font-size: 14px;
-  margin: 25px auto 50px;
+  margin: 25px 0px 50px;
 }
 .card__img {
-  /* border: 1px solid greenyellow; */
+  border: 1px solid greenyellow;
   border-radius: 15px 15px 0px 0px;
   height: 220px;
   width: 100%;
@@ -76,7 +76,7 @@
 }
 /* stats */
 .stats-container {
-  /* border: 1px solid cyan; */
+  border: 1px solid cyan;
 }
 .stats {
   margin-bottom: 20px;

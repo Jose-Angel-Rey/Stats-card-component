@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 85%;
+    max-width: 1100px;
+    flex-flow: row nowrap;
+    text-align: left;
+  }
+  .card-content {
+    border-radius: 15px 0px 0px 15px;
+    width: 50%;
+  }
+  .card-content__title,
+  .card-content__description {
+    max-width: 350px;
+  }
+  .card__img {
+    border-radius: 0px 15px 15px 0px;
+    width: 50%;
+    height: 450px;
+  }
+  .stats-container {
+    max-width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .stats {
+    margin: 0px;
+  }
+}
