@@ -39,3 +39,22 @@
     left: -100000000;
     overflow: hidden;
   }
+
+  /* Attribution footer styles */
+.attribution {
+    margin: 20px auto;
+    font-size: 15px;
+    font-family: var(--content-font);
+    text-align: center;
+  }
+  .attribution a {
+    color: var(--orange-card-bg-color);
+    transition: color 0.5s;
+  }
+  .attribution a:hover {
+    color: var(--dark-cyan-card-bg-color);
+  }
+  .attribution a:active {
+    color: var(--ver-dark-cyan-card-bg-color);
+  }
+  

@@ -6,47 +6,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Jose Angel Rey">
   <meta name="description" content="Frontend Mentor challengue - Stats card component">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Stats preview card component</title>
 
-  
+
   <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/media-queries.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
-    <div class="main-container">
+  <div class="main-container">
 
-    <main class="cards-container">
+    <main class="card-container">
       <!-- ScreenRead only -->
-      <h1 class="sr-only">Three column card component</h1>
+      <h1 class="sr-only">Stats card component</h1>
+
+      <!-- Card content-->
+      <section class="card-content">
+        <h2 class="card-content__title">Get insights that help your business grow.</h2>
+        <p class="card-content__description">Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.</p>
+
+          <!-- Stats -->
+          <div class="stats-container">
+            <div class="stats">
+              <p class="stats__title">10k+</p>
+              <p class="stats__description">companies</p>
+            </div>
+            <div class="stats">
+              <p class="stats__title">314</p>
+              <p class="stats__description">templates</p>
+            </div>
+            <div class="stats">
+              <p class="stats__title">12m+</p>
+              <p class="stats__description">queries</p>
+            </div>
+          </div>
+      </section>
+      <!-- Card image -->
+      <img src="./images/image-header-mobile.jpg" alt="People working" class="card__img">
     </main>
 
-    Get insights that help your business grow.
-
-    Discover the benefits of data analytics and make better decisions regarding revenue, customer
-    experience, and overall efficiency.
-  
-    10k+ companies
-    314 templates
-    12m+ queries
-  
-    </div>
+  </div>
 
   <!-- Attribution footer -->
   <div class="attribution">
