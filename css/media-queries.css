@@ -40,7 +40,6 @@
 /* -------- 1024px ------------ */
 @media screen and (min-width: 1024px) {
   .card-container:hover {
-    cursor: pointer;
     animation: none;
   }
   .card-content {
